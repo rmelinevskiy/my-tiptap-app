@@ -22,7 +22,7 @@ const App = () => {
   const provider = useMemo(
     () =>
       new HocuspocusProvider({
-        url: "ws://127.0.0.1:1234/collaboration",
+        url: "ws://127.0.0.1:5555/collaboration",
         name: "example-document",
         document: ydoc,
       }),
